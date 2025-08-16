@@ -2,11 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "src/server.js",
- "scripts": {
-  "dev": "nodemon src/server.js",
-  "start" : "node src/server.js"
-}
-,
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
   "type": "module",
   "keywords": [],
   "author": "",
@@ -18,6 +17,7 @@
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
     "express": "^4.18.2",
-    "mongoose": "^8.17.1"
+    "mongoose": "^8.17.1",
+    "notes": "file:.."
   }
 }
