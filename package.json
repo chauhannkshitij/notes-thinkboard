@@ -1,0 +1,25 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install -- prefix backend && npm run build --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chauhannkshitij/notes-thinkboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chauhannkshitij/notes-thinkboard/issues"
+  },
+  "homepage": "https://github.com/chauhannkshitij/notes-thinkboard#readme",
+  "dependencies": {
+    "backend": "^0.0.0",
+    "prefix": "^1.0.0"
+  },
+  "description": ""
+}
